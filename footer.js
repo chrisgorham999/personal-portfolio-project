@@ -1,3 +1,14 @@
+/*
+======================================
+; Title: footer.js 
+; Author: Chris Gorham
+; Date: 31 Jan 2023
+; Description: This code is used for the footer in all pages in the Personal Portfolio Project
+; Sources Used: 
+; WEB 330 GitHub Page, URL: https://github.com/buwebdev/web-330/blob/master/portfolio/footer.js
+;=====================================
+*/
+
 class Footer extends HTMLElement
 {
     constructor() {

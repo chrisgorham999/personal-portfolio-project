@@ -1,3 +1,15 @@
+/*
+======================================
+; Title: header.js 
+; Author: Chris Gorham
+; Date: 31 Jan 2023
+; Description: This code is used for the header in all pages in the Personal Portfolio Project
+; Sources Used: 
+; WEB 330 GitHub Page, URL: https://github.com/buwebdev/web-330/blob/master/portfolio/header.js
+;=====================================
+*/
+
+
 class Header extends HTMLElement
 {
     constructor() {

@@ -1,3 +1,15 @@
+/*
+======================================
+; Title: site.css 
+; Author: Chris Gorham
+; Date: 31 Jan 2023
+; Description: This code styles a number of items in the WEB 330 Personal Portfolio project
+; Sources Used: Web 330 HTML, CSS, and JavaScript Requirements Word Document
+; W3 Schools CSS Templates, URL: https://www.w3schools.com/w3css/w3css_templates.asp
+;=====================================
+*/
+
+
 /* General styling for the sidebar and pages as a whole */
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 body {background-color: #000;}
