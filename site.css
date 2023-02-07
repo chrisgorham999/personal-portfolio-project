@@ -84,6 +84,22 @@ body {background-color: #000;}
     padding-left: 18px;
   }
 
+/* index.html images gallery */
+  .image-gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    border: 1px solid #FFF;
+    padding: 5px;
+  }
 
+  .image-gallery:hover {
+    border: 1px solid #777;
+  }
+
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+  }
 
 
