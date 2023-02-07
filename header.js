@@ -21,7 +21,7 @@ class Header extends HTMLElement
         <!-- Icon Bar (Sidebar - hidden on small screens) -->
         <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
           <!-- Avatar image in top left corner -->
-          <img class="w3-opacity" src="portrait.png" style="width:100%">
+          <img class="gorham-opacity gorham-opacity-off" src="portrait.png" style="width:100%">
           <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
             <i class="fa fa-home w3-xxlarge"></i>
             <p>HOME</p>
