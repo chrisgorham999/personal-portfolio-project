@@ -103,3 +103,20 @@ body {background-color: #000;}
   }
 
 
+  /* Font Colors */
+  .gorham-text-white {
+    color: #ffffff;
+  }
+
+  .gorham-text-black {
+    color: #000000;
+  }
+
+  .gorham-text-grey {
+    color: grey;
+  }
+
+  .gorham-text-light-grey {
+    color: lightgrey;
+  }
+
