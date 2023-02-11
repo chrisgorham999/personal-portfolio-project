@@ -6,6 +6,7 @@
 ; Description: This code is used for the header in all pages in the Personal Portfolio Project
 ; Sources Used: 
 ; WEB 330 GitHub Page, URL: https://github.com/buwebdev/web-330/blob/master/portfolio/header.js
+; CSS Text Roller: https://codepen.io/marcell0lopes/pen/oNemQmB
 ;=====================================
 */
 
@@ -21,7 +22,7 @@ class Header extends HTMLElement
         <!-- Icon Bar (Sidebar - hidden on small screens) -->
         <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
           <!-- Avatar image in top left corner -->
-          <img class="gorham-opacity gorham-opacity-off" src="portrait.png" style="width:100%">
+          <img class="gorham-filter gorham-opacity gorham-opacity-off" src="images/portrait.png" style="width:100%">
           <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
             <i class="fa fa-home w3-xxlarge"></i>
             <p>HOME</p>
@@ -55,9 +56,18 @@ class Header extends HTMLElement
 
         <div class="w3-padding-large" id="main">
         <!-- Header/Home -->
-        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-          <h1 class="w3-jumbo">Chris Gorham's Portfolio</h1>
-          <p>Bellevue University Web Development Program</p>
+        <header class="gorham-logo" id="home">
+          <img class="gorham-filter" src="images/logo.png"><br><br><br>
+        <div class="main">
+          <h1>Bellevue University <div class="roller">
+          <span id="rolltext">Web<br/>
+          Development<br/>
+          Program<br/>
+          <span id="online">Online</span><br/>
+        </div>
+          </h1>
+    
+  </div>
         </header>
         `;
     }

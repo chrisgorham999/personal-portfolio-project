@@ -4,15 +4,20 @@
 ; Author: Chris Gorham
 ; Date: 31 Jan 2023
 ; Description: This code styles a number of items in the WEB 330 Personal Portfolio project
-; Sources Used: Web 330 HTML, CSS, and JavaScript Requirements Word Document
-; W3 Schools CSS Templates, URL: https://www.w3schools.com/w3css/w3css_templates.asp
+; Sources Used: 
+; Web 330 HTML, CSS, and JavaScript Requirements Word Document
+; W3 Schools CSS Templates (Sidebar), URL: https://www.w3schools.com/w3css/w3css_templates.asp
+; CSS Text Roller: https://codepen.io/marcell0lopes/pen/oNemQmB
 ;=====================================
 */
 
 
 /* General styling for the sidebar and pages as a whole */
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-body {background-color: #000;}
+body {
+  background-color: #000;
+}
+
 .w3-row-padding img {margin-bottom: 12px}
 
 .gorham-black,.gorham-hover-black:hover{color:#fff;background-color:#000}
@@ -33,8 +38,21 @@ body {background-color: #000;}
     max-width: 980px;
 }
 
+.gorham-logo {
+  text-align: center;
+  padding-right: 200px;
+}
+
 .gorham-opacity {
     opacity: .60;
+}
+
+.gorham-filter {
+  filter: grayscale(100%);
+}
+
+.gorham-filter:hover {
+  filter: none;
 }
 
 .gorham-opacity-off:hover {
@@ -154,3 +172,95 @@ body {background-color: #000;}
     padding-bottom: 32px;
   }
 
+  /* Start of Web Development Program Animated Text Roller */
+  .main{
+    height:100px;
+    width:100%;  
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  
+  .roller{
+    height: 4.125rem;
+    line-height: 4rem;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+  }
+  
+  
+  #online{
+    font-size: 1.5rem;
+    font-style: italic;
+    letter-spacing: 1rem;
+    margin-top: 0;
+    color: #ffffff;
+    
+  }
+  
+  .roller #rolltext {
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;  
+  }
+  
+  @keyframes slide {
+    0%{
+      top:0;
+    }
+    25%{
+      top: -4rem;    
+    }
+    50%{
+      top: -8rem;
+    }
+    72.5%{
+      top: -12.25rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    h1{
+    text-align:center;
+    text-transform: uppercase;
+    color: #F1FAEE; 
+    font-size: 2.125rem;
+  }
+    
+    .roller{
+    height: 2.6rem; 
+    line-height: 2.125rem;  
+    }
+    
+    #spare-time {
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+    }
+    
+    .roller #rolltext {  
+    animation: slide-mob 5s infinite;  
+  }
+    
+    @keyframes slide-mob {
+    0%{
+      top:0;
+    }
+    25%{
+      top: -2.125rem;    
+    }
+    50%{
+      top: -4.25rem;
+    }
+    72.5%{
+      top: -6.375rem;
+    }
+  }
+  }
+
+    /* End of Web Development Program Animated Scroller */
