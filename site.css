@@ -32,6 +32,10 @@ body {
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
 
+.gorham-center {
+  text-align: center;
+}
+
 .gorham-content {
     margin-left:auto;
     margin-right:auto;
@@ -138,7 +142,7 @@ body {
   }
 
 
-  /* Font Colors */
+  /* Background and Font Colors */
   .gorham-text-white {
     color: #ffffff;
   }
@@ -155,7 +159,23 @@ body {
     color: lightgrey;
   }
 
+  .gorham-white {
+    background-color: #FFF;
+  }
+
+  .gorham-black {
+    background-color: #000;
+  }
+
+  .gorham-grey {
+    background-color: grey;
+  }
+
 /* Paddings */
+
+  .gorham-padding-12 {
+    padding: 12px 24px
+  }
 
   .gorham-padding-16 {
     padding-top: 16px;
@@ -171,6 +191,30 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
   }
+
+/* Standard Font Sizes */
+
+  .gorham-small {
+    font-size: 12px;
+  }
+
+  .gorham-large {
+    font-size: 18px;
+  }
+
+  .gorham-xlarge {
+    font-size: 24px;
+  }
+
+  .gorham-xxlarge {
+    font-size: 36px;
+  }
+
+  .gorham-xxxlarge {
+    font-size: 48px;
+  }
+
+
 
   /* Start of Web Development Program Animated Text Roller */
   .main{
