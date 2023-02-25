@@ -27,10 +27,6 @@ class Header extends HTMLElement
             <i class="fa fa-home gorham-xxlarge"></i>
             <p>HOME</p>
           </a>
-          <a href="index.html#about" class="w3-bar-item w3-button gorham-padding-12 w3-hover-black">
-            <i class="fa fa-user gorham-xxlarge"></i>
-            <p>ABOUT</p>
-          </a>
           <a href="resume.html" class="w3-bar-item w3-button gorham-padding-12 w3-hover-black">
           <i class="fa fa-solid fa-file gorham-xxlarge"></i>
           <p>RESUME</p>
