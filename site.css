@@ -308,3 +308,12 @@ body {
   }
 
     /* End of Web Development Program Animated Scroller */
+
+
+    /* Start of Database Diagram Pages Specific CSS */
+
+.datamodeling-gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
