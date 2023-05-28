@@ -34,6 +34,10 @@ class Header extends HTMLElement
           <a href="projects.html" class="w3-bar-item w3-button gorham-padding-12 w3-hover-black">
             <i class="fa fa-solid fa-folder gorham-xxlarge"></i>
             <p>PROJECTS</p>
+          <a href="devops.html" class="w3-bar-item w3-button gorham-padding-12 w3-hover-black">
+            <i class="fa fa-solid fa-film gorham-xxlarge"></i>
+            <p>DEVOPS PRESENTATIONS</p>
+            </a>
           </a>
           <a href="database-diagrams.html" class="w3-bar-item w3-button gorham-padding-12 w3-hover-black">
           <i class="fa fa-solid fa-database gorham-xxlarge"></i>
